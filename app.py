@@ -126,9 +126,9 @@ def main():
 
 	else:
 		st.subheader("About")
-		st.success("Built with Streamlit")
-		st.info("Jesus Saves @JCharisTech")
-		st.text("By Jesse E.Agbe(JCharis)")
+		st.success("Built with Streamlit😊")
+		st.info(" @Shivangi on Daisi platform")
+		st.text("By Shivangi Bhargava)")
 
 
 
