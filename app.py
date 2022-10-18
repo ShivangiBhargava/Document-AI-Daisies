@@ -78,7 +78,7 @@ border-radius:10px;border:5px solid #464e5f;text-align:center;">
 
 
 def main():
-	# st.title("Fake Data Generator")
+	# st.title("Welcome to Intelligent Document Search and Data Generator!😊")
 	stc.html(custom_title)
 
 	menu = ["Home","Customize","About"]
@@ -93,7 +93,7 @@ def main():
 
 		df = generate_locale_profile(number_to_gen,locale)
 		st.dataframe(df)
-		with st.beta_expander("📩: Download"):
+		with st.expander("📩: Download"):
 			make_downloadable_df_format(df,dataformat)
 
 	elif choice == "Customize":
@@ -117,10 +117,10 @@ def main():
 		st.dataframe(df)
 
 		# View as JSON
-		with st.beta_expander("🔍: View JSON "):
+		with st.expander("🔍: View JSON "):
 			st.json(data)
 
-		with st.beta_expander("📩: Download"):
+		with st.expander("📩: Download"):
 			make_downloadable_df_format(df,dataformat)
 		
 
